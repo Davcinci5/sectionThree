@@ -1,0 +1,27 @@
+{
+  "name": "nodeexercises",
+  "version": "1.0.0",
+  "description": "",
+  "main": "exe1.js",
+  "scripts": {
+    "test:one": "jest -i exe1.test.js",
+    "test:two": "jest -i exe2.test.js",
+    "test:three": "jest -i exe3.test.js",
+    "test:four": "jest -i exe4.test.js",
+    "test:five": "jest -i exe5.test.js",
+    "test:six": "jest -i exe6.test.js",
+    "test:seven": "jest -i exe7.test.js",
+    "test:eight": "jest -i exe8.test.js",
+    "test:nine": "jest -i exe9.test.js",
+    "test:ten": "jest -i exe10.test.js",
+    "test:eleven": "jest -i exe11.test.js",
+    "test:twelve": "jest -i exe12.test.js",
+    "test:thirteen": "jest -i exe13.test.js",
+    "test:fourteen": "jest -i exe14.test.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "jest": "^26.5.2"
+  }
+}
