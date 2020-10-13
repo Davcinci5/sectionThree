@@ -1,46 +1,34 @@
-const {stdout} = require("process");
-const {cursorTo} = require("readline");
+// index.js
+const process = require("process")
+const rdl = require("readline")
 
-
-
-const loadingBar = (counter) =>{
-    let size =50, x_position = 1, y_position = 1, tail = 30, dash = "-", equal = "=", speed_up = 10, openSquare = "[", closeSquare ="]";
-
-    let writeCharacter = (x,char) => {
-           cursorTo(stdout,x,y_position);
-            stdout.write(char);
-    }
-
-    let delay = (sec) => new Promise(res => setTimeout(res,sec));
-    let loading =  async(cycles) =>{
-        let count = 0; 
-        writeCharacter(0,openSquare)
-        for (let i = 1; i < size; i++) {
-            writeCharacter(i,dash)
-        }
-        writeCharacter(size,closeSquare)
-        while(count<cycles){
-            writeCharacter(x_position++,equal);
-            if(x_position > tail){
-                writeCharacter(x_position-tail,dash)
-            }
-            await delay(speed_up);
-            if(x_position === size){
-                let leftTail = x_position-tail;
-                while(leftTail < size){
-                    writeCharacter(leftTail++,dash)
-                    await delay(50);
-                }
-                x_position = 1;
-            }
-            count++
-         }
-        
-    }
-      loading(counter);
+ let LoadingBar = async() =>{
     
-};
+    let begin = '[--------------------]'.split("");
+    let i = 1;
+    let tail = 10;
+    
+    let delay = (sec) => new Promise(res => setTimeout(res,sec));
 
-loadingBar(0)
+    while(i<begin.length){
+        rdl.cursorTo(process.stdout, 0, 0,()=>process.stdout.write(begin.join("")));
+        
+        await delay(100);
+        begin[i++] = "*"
+        if(i>tail){
+            begin[i-tail] = "-";
+        }
+        if(i === begin.length-1){
+            let leftTail = i-tail;
+                while(leftTail < begin.length-1){
+                    begin[leftTail++] = "-";
+                    rdl.cursorTo(process.stdout, 0, 0,()=>process.stdout.write(begin.join("")));
+                    await delay(100);
+                }
+        }
+         //if(i === begin.length-1) i =1;
+    }
+    process.exit(0);
+}
 
-
+LoadingBar();
