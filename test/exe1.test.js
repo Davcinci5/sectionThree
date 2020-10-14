@@ -1,6 +1,6 @@
 const spawn = require('child_process').spawn;
 
-test('verify bar loading using child process', (done)=>{
+test('verify bar loading using child process, testing just one cycle', (done)=>{
      let bar = ['\x1B[1;1H',
                '[--------------------]','\x1B[1;1H',
                '[*-------------------]','\x1B[1;1H',
@@ -46,6 +46,7 @@ test('verify bar loading using child process', (done)=>{
     }); 
 
 });
+
 
 
 
