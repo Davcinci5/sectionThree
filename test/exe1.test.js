@@ -43,10 +43,5 @@ test('verify bar loading using child process, testing just one cycle', (done)=>{
     child.stdout.on('data',function(data){
         expect(data.toString()).toBe(bar[counter++]);
         if(counter === bar.length) done();
-    }); 
-
+    });
 });
-
-
-
-
