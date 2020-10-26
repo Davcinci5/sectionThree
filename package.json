@@ -23,7 +23,8 @@
   "license": "ISC",
   "dependencies": {
     "ip2location-nodejs": "^8.4.0",
-    "jest": "^26.5.2"
+    "jest": "^26.5.2",
+    "xml2js": "^0.4.23"
   },
   "devDependencies": {
     "eslint": "^7.11.0",

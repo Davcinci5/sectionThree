@@ -1,3 +1,4 @@
+/* eslint-disable spaced-comment */
 /* eslint-disable prefer-const */
 /* eslint-disable camelcase */
 

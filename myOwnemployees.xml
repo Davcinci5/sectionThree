@@ -1,0 +1,342 @@
+<?xml version='1.0' encoding='us-ascii'?>
+<employees>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Christian</name>
+    <location-city>Hermosillo</location-city>
+    <location-state>Sonora</location-state>
+    <exp>20</exp>
+    <skills>
+        <skill>SAP</skill>
+        <skill>Data Migration</skill>
+        <skill>Mongo DB</skill>
+        <skill>Javascript</skill>
+        <skill>C</skill>
+        <skill>Cloud Computing</skill>
+        <skill>Cognos</skill>
+        <skill>Teradata</skill>
+        <skill>AWS</skill>
+        <skill>Business Objects</skill>
+        <skill>C++</skill>
+        <skill>CICS</skill>
+    </skills>
+    <salary>80</salary>
+    <category>Data Warehousing/ETL</category>
+    <subcategory>x-Other</subcategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Jorge Martinez</name>
+    <location-city>CDMX</location-city>
+    <location-state>CDMX</location-state>
+    <exp>10</exp>
+    <skills>
+        <skill>Data Science in E- Commerce</skill>
+        <skill>BQ MongoDB</skill>
+        <skill>Java/J2EE</skill>
+        <skill>Spring MVC</skill>
+        <skill>Hibernate</skill>
+    </skills>
+    <salary>48</salary>
+    <category>Project, Product Management, Dev Ops</category>
+    <suncategory>QA Analyst</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Diego Armando</name>
+    <location-city>Oaxaca de Juarez</location-city>
+    <location-state>Oaxaca</location-state>
+    <exp>30</exp>
+    <skills>
+        <skill>Business Intelligence</skill>
+        <skill>Oracle</skill>
+        <skill>PL/SQL</skill>
+        <skill>unix</skill>
+        <skill>ETL</skill>
+        <skill>Python</skill>
+        <skill>Data Warehousing</skill>
+        <skill>Node JS</skill>
+        <skill>SAP</skill>
+        <skill>Data Migration</skill>
+        <skill>Mongo DB</skill>
+        <skill>Business Objects</skill>
+        <skill>C++</skill>
+        <skill>CICS</skill>
+    </skills>
+    <salary>150</salary>
+    <category>Data Warehousing/ETL</category>
+    <subcategory>x-Other</subcategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Luis Larrinaga</name>
+    <location-city>Baja California</location-city>
+    <location-state>Baja California</location-state>
+    <exp>11</exp>
+    <skills>
+        <skill>REST Web Services</skill>
+        <skill>Servlets</skill>
+        <skill>Spring ORM</skill>
+        <skill>Microservice</skill>
+        <skill>JBOSS</skill>
+        <skill>JQuery</skill>
+    </skills>
+    <salary>74</salary>
+    <category>DBAs</category>
+    <suncategory>Amazon (AWS)</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Fabricio Gomez</name>
+    <location-city>Guanajuato</location-city>
+    <location-state>Guanajuato</location-state>
+    <exp>23</exp>
+    <skills>
+        <skill>COM</skill>
+        <skill>LeSS</skill>
+        <skill>Project Management</skill>
+        <skill>Project Accounting</skill>
+        <skill>Resource Management</skill>
+        <skill>PPM</skill>
+    </skills>
+    <salary>56</salary>
+    <category>DBAs</category>
+    <suncategory>Amazon (AWS)</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Carlos Fernando</name>
+    <location-city>Coahuila</location-city>
+    <location-state>Coahuila</location-state>
+    <exp>43</exp>
+    <skills>
+        <skill>Azure CLI</skill>
+        <skill>Azure DevOps (VSTS)</skill>
+        <skill>Dynamics 365</skill>
+        <skill>Visual Studio</skill>
+        <skill>Azure Cloud Services</skill>
+        <skill>GitFlow</skill>
+        <skill>Business Intelligence</skill>
+        <skill>Oracle</skill>
+        <skill>PL/SQL</skill>
+        <skill>unix</skill>
+        <skill>ETL</skill>
+        <skill>Python</skill>
+        <skill>Data Warehousing</skill>
+        <skill>Node JS</skill>
+    </skills>
+    <salary>128</salary>
+    <category>DBAs</category>
+    <suncategory>Amazon (AWS)</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Irving Martin</name>
+    <location-city>Veracruz</location-city>
+    <location-state>Veracruz</location-state>
+    <exp>17</exp>
+    <skills>
+        <skill>GitKraken</skill>
+        <skill>TFS (Team Foundation Server)</skill>
+        <skill>Source Depot</skill>
+        <skill>PerForce</skill>
+        <skill>NuGet Gallery and Repository</skill>
+        <skill>Batch</skill>
+    </skills>
+    <salary>68</salary>
+    <category>Sys Admin, IDM, Cyber, Sec OPS</category>
+    <suncategory>Mainframe Developer</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Sol Selene</name>
+    <location-city>Baja California</location-city>
+    <location-state>Baja California</location-state>
+    <exp>29</exp>
+    <skills>
+        <skill>cmd.exe</skill>
+        <skill>UNIX System Administration</skill>
+        <skill>Mac OS/X</skill>
+        <skill>BuildTracker</skill>
+        <skill>CoreXT</skill>
+        <skill>XSD</skill>
+        <skill>RSpec</skill>
+    </skills>
+    <salary>100</salary>
+     <category>QA, Testing Automation</category>
+    <suncategory>Telecomm Engineer</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Cruz David</name>
+    <location-city>Guerrero</location-city>
+    <location-state>Guerrero</location-state>
+    <exp>34</exp>
+    <skills>
+        <skill>capybara</skill>
+        <skill>Webdriverio</skill>
+        <skill>git</skill>
+        <skill>Wordpress</skill>
+        <skill>HTML5/CSS3</skill>
+        <skill>Postgresql</skill>
+        <skill>ADB</skill>
+        <skill>Bootstrap and Microsoft Office</skill>
+    </skills>
+    <salary>95</salary>
+     <category>QA / Testing</category>
+    <suncategory>x-Other</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Adrian Enrique</name>
+    <location-city>Baja California</location-city>
+    <location-state>Baja California</location-state>
+    <exp>18</exp>
+    <skills>
+        <skill>Teradata Administrator</skill>
+        <skill>Android SDK</skill>
+        <skill>DevOPS Migration</skill>
+        <skill>Forecaster</skill>
+    </skills>
+    <salary>77</salary>
+    <category>Reporting Tools</category>
+    <suncategory>CA7 Job scheduling</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Jesus Humberto</name>
+    <location-city>Sonora</location-city>
+    <location-state>Sonora</location-state>
+    <exp>23</exp>
+    <skills>
+        <skill>ETL</skill>
+        <skill>Python</skill>
+        <skill>Data Warehousing</skill>
+        <skill>Node JS</skill>
+        <skill>SAP</skill>
+        <skill>Data Migration</skill>
+        <skill>Mongo DB</skill>
+    </skills>
+    <salary>91</salary>
+    <category>Project Management</category>
+    <suncategory>QA Engineer</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Cristian Manuel </name>
+    <location-city>CDMX</location-city>
+    <location-state>CDMX</location-state>
+    <exp>34</exp>
+    <skills>
+        <skill>Data Science in E- Commerce</skill>
+        <skill>BQ MongoDB</skill>
+        <skill>Java/J2EE</skill>
+        <skill>Spring MVC</skill>
+        <skill>Hibernate</skill>
+    </skills>
+    <salary>129</salary>
+    <category>Web/Internet</category>
+    <suncategory>Linux Admin</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Jose de Jesus</name>
+    <location-city>Guanajuato</location-city>
+    <location-state>Guanajuato</location-state>
+    <exp>28</exp>
+    <skills>
+        <skill>REST Web Services</skill>
+        <skill>Servlets</skill>
+        <skill>Spring ORM</skill>
+        <skill>Microservice</skill>
+        <skill>JBOSS</skill>
+        <skill>JQuery</skill>
+    </skills>
+    <salary>89</salary>
+    <category>Unix, C, Shell Scripting</category>
+    <suncategory>SQL Server DBA</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Antonio Hernandez</name>
+    <location-city>Michoacan</location-city>
+    <location-state>Michoacan</location-state>
+    <exp>15</exp>
+    <skills>
+        <skill>COM</skill>
+        <skill>LeSS</skill>
+        <skill>Project Management</skill>
+        <skill>Project Accounting</skill>
+        <skill>Resource Management</skill>
+        <skill>PPM</skill>
+    </skills>
+    <salary>69</salary>
+     <category>Database Developers</category>
+    <suncategory>QA Analyst</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Octavio Guzman</name>
+    <location-city>Guanajuato</location-city>
+    <location-state>Guanajuato</location-state>
+    <exp>38</exp>
+    <skills>
+        <skill>Azure CLI</skill>
+        <skill>Azure DevOps (VSTS)</skill>
+        <skill>Dynamics 365</skill>
+        <skill>Visual Studio</skill>
+        <skill>Azure Cloud Services</skill>
+        <skill>GitFlow</skill>
+    </skills>
+    <salary>128</salary>
+    <category>Mainframe</category>
+    <suncategory>Scrum Master</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+<employee id="hM6YLnCKnvY96IaQWUvnTA==">
+    <name>Carlos Diaz</name>
+    <location-city>Chiapas</location-city>
+    <location-state>Chiapas</location-state>
+    <exp>40</exp>
+    <skills>
+        <skill>GitKraken</skill>
+        <skill>TFS (Team Foundation Server)</skill>
+        <skill>Source Depot</skill>
+        <skill>PerForce</skill>
+        <skill>NuGet Gallery and Repository</skill>
+        <skill>Batch</skill>
+        <skill>Javascript</skill>
+        <skill>C</skill>
+        <skill>Cloud Computing</skill>
+        <skill>Cognos</skill>
+        <skill>Teradata</skill>
+        <skill>AWS</skill>
+    </skills>
+    <salary>168</salary>
+     <category>Cloud, Big Data</category>
+    <suncategory>Business Analyst</suncategory>
+    <work-authorization>US Citizen</work-authorization>
+</employee>
+
+</employees>
+
+
+
+
+ 
+
+ 
+ 
+
+
+ 
+
+
+
+ 
+ 
+
+ 
+
+ 
+ 
+ 

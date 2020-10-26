@@ -6,7 +6,7 @@
 /* eslint-disable quotes */
 /* eslint-disable no-undef */
 
-///      this command was use to do the test --->   npm run test:four 'test.log.1' 'test2.log.1'
+///      this command was used to do the test --->   npm run test:four 'test.log.1' 'test2.log.1'
 
 let { getDataFromLog, getArre_User_Ip, frequencyCountry } = require('../exe4');
 
