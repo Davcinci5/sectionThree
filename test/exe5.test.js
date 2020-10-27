@@ -1,18 +1,16 @@
 /* eslint-disable no-undef */
 ///      this command was used to do the test --->   npm run test:five 'myOwnemployees.xml'
-const {
-    getDataFromXML,
-    convertXMltoObj,
-    getAveragePerCategory,
-    getGeographicDistribution,
-    greatestElement,
-    getTheMostExperienced,
-    getCommonSkills,
-    GreaterToLower,
-    skillsAmoungHigher,
-    prevalentCategoryInState,
-    experienceXsalary
-} = require('../exe5');
+const getDataFromXML = require('../exe5/getDataFromXML');
+const convertXMltoObj = require('../exe5/convertXmlToObj');
+const getAveragePerCategory = require('../exe5/getAveragePerCategory');
+const getGeographicDistribution = require('../exe5/getGeographicDistribution');
+const greatestElement = require('../exe5/greatestElement');
+const getTheMostExperienced = require('../exe5/getTheMostExperienced');
+const getCommonSkills = require('../exe5/getCommonSkills');
+const GreaterToLower = require('../exe5/GreaterToLower');
+const skillsAmoungHigher = require('../exe5/skillsAmoungHigher');
+const prevalentCategoryInState = require('../exe5/prevalentCategoryInState');
+const experienceXsalary = require('../exe5/experienceXsalary');
 
 const myDocc = process.argv[4];
 
