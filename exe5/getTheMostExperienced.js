@@ -1,4 +1,4 @@
-const getGeographicDistribution = require('../exe5/getGeographicDistribution');
+const getGeographicDistribution = require('./getGeographicDistribution');
 
 const getTheMostExperienced = (arre) => {
     const locationObj = getGeographicDistribution(arre);

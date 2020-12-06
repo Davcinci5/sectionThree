@@ -22,8 +22,19 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "apollo-server-express": "^2.19.0",
+    "bcrypt-nodejs": "0.0.3",
+    "cookie-parser": "^1.4.5",
+    "cors": "^2.8.5",
+    "express": "^4.17.1",
+    "graphql-passport": "^0.6.3",
+    "http-server": "^0.12.3",
     "ip2location-nodejs": "^8.4.0",
     "jest": "^26.5.2",
+    "jsonwebtoken": "^8.5.1",
+    "morgan": "^1.10.0",
+    "oracledb": "^5.0.0",
+    "passport": "^0.4.1",
     "xml2js": "^0.4.23"
   },
   "devDependencies": {

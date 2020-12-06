@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style type="text/css">
+    body{
+        background-color: 	#91a8ae;
+    }
+        form{
+            background-color: #2b2c29;
+            width: 400px;
+            text-align: center;
+            color: white;
+            font-weight: bold;
+            border: whitesmoke solid 1px;
+        }
+        .form{
+            width: 100%;
+            margin: 15px auto;
+        }
+        label{
+            display: block;
+            padding: 20px;
+            font-size: 25px;
+        }
+        input{
+            width: 80%;
+            padding: 10px;
+            border: 1px solid #797979;
+            font-size: 20px;
+            margin-left: 20px;
+            border-radius: 3px;
+            text-align: center;
+        }
+        button{
+            width: 100px;
+            margin: 20px;
+            padding: 10px;
+            border: none;
+            outline: none;
+            cursor: pointer;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: bold;
+            color: darkblue;
+        }
+        .wrapper{
+            width: 700px;
+            margin: 30px auto;
+            display: grid;
+		    grid-template-columns: 2fr ;
+            padding-left: 200px;
+        }
+        img{
+            width: 250px;
+            height: 190px;
+           margin-bottom: 10px;
+            padding-left: 150px;
+        }
+        .toogle{
+            margin-top: 10px;
+            background-color: #2b2c29;
+            color: white;
+            width: 400px;
+            height: 60px;
+            border: whitesmoke solid 1px;
+            font-size: 20px;
+            text-align: center;
+        }
+        a{
+            text-decoration: none;
+            color: #e5c45c;
+        }
+        
+
+    </style>
+</head>
+<body>
+    <div class="wrapper">
+        <img src="mypenguin.jpg" class="penguin">
+        <form action="" method="post">
+            <div class=".form">
+                <label for="username">Username</label>
+                <input type="text" name="username" placeholder="username">
+                <span></span>
+            </div>
+            <div class=".form">
+                <label for="password">Password</label>
+                <input type="text" name="password" placeholder="password">
+                <span></span>
+            </div>
+            <button id="log-in">Log in</button>
+        </form>
+        
+        <div class="toogle">
+            <p for="name">Don't have an account? <a href="/"> sign up</a></p>
+        </div>
+    </div>
+    
+    
+    <main id="root"></main>
+    <!-- <script src="./index.js" type="module"></script> -->
+</body>
+</html>

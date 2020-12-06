@@ -1,3 +1,6 @@
+const salaryDev = { mid: 0, junior: 0, senior: 0 };
+const totalDev = { mid: 0, junior: 0, senior: 0 };
+
 const experienceXsalary = (arre) => {
     const reducer = ({ salaryDev, totalDev }, { exp, salary }) => {
         salary = parseInt(salary);
@@ -13,8 +16,7 @@ const experienceXsalary = (arre) => {
         }
         return { salaryDev, totalDev };
     };
-    const salaryDev = { mid: 0, junior: 0, senior: 0 };
-    const totalDev = { mid: 0, junior: 0, senior: 0 };
+
     arre.reduce(reducer, { salaryDev, totalDev });
     const junior = salaryDev.junior / totalDev.junior;
     const mid = salaryDev.mid / totalDev.mid;
