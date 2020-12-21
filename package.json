@@ -22,6 +22,8 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "@testing-library/dom": "^7.29.0",
+    "@testing-library/jest-dom": "^5.11.6",
     "apollo-server-express": "^2.19.0",
     "bcrypt-nodejs": "0.0.3",
     "cookie-parser": "^1.4.5",

@@ -1,0 +1,136 @@
+.log-in-background{
+    background-color: #91a8ae;
+}
+.dashboard-bg-color {
+    background-color: white;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    margin-bottom: 50px;
+    overflow: hidden;
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    padding-left: 660px;
+    padding-top: 20px;
+    background-color: white;
+    z-index: 2;
+    }
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: #666;
+  text-align: center;
+  padding: 14px 16px;
+  margin-left: 20px;
+
+  text-decoration: none;
+  font-size: 17px
+}
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  color: #111;
+  padding: 13px 16px;
+  font-size: 20px;
+  border-bottom: 1px solid #e5c45c;
+}
+
+.active {
+  border-bottom: #e5c45c solid 6px;
+  color: #666;
+}
+div{
+width: 1248px;
+border: #e5c45c solid 1px;
+background-color: #91a8ae;
+max-height: 900px;
+margin: 10px auto;
+margin-top: 100px;
+}
+.greetings {
+height: 491px;
+}
+.greetings > h1{
+background-color: #91a8ae;
+float: left;
+width: 45%;
+font-family: GraublauWeb;
+font-size: 70px;
+letter-spacing: 0.1em;
+text-align: center;
+color: whitesmoke;
+font-style: oblique;
+font-weight: 900;
+border-bottom: 1px solid whitesmoke;
+margin-left: 50px;
+margin-top: 150px;
+}
+.greetings > img{
+float: right;
+width: 50%;
+height: 491px;
+}
+form{
+box-sizing: border-box;
+width: 100%;
+margin-top: 50px;
+margin-left: 15%;
+margin-bottom: 150px;
+}
+form.example input[type=text] {
+padding: 10px;
+font-size: 17px;
+border: 1px solid grey;
+float: left;
+width: 50%;
+background: #f1f1f1;
+}
+form.example button {
+float: left;
+width: 18%;
+padding: 10px;
+background: #2196F3;
+color: white;
+font-size: 17px;
+border: 1px solid grey;
+border-left: none;
+cursor: pointer;
+}
+form.example button:hover {
+background: #0b7dda;
+}
+p {
+font-family: GraublauWeb;
+font-size: 60px;
+width: 33rem;;
+margin: 20px auto;
+letter-spacing: 0.1em;
+color: whitesmoke;
+}
+.my-list{
+width: 100%;
+overflow: auto;
+margin-top: 50px;
+margin-bottom: 100px;
+border:  #e5c45c 1px solid;
+background-color: #91a8ae;
+height: 745px;
+display: grid;
+grid-template-columns: 300px 300px 300px 300px;
+grid-template-rows: 700px 700px 700px;
+grid-gap: 5px;
+}
+.my-search-msg {
+  font-family: monospace;
+    font-size: 25px;
+    position: relative;
+    left: 400px;
+    top: 230px;
+    color: red;
+    font-weight: bold;
+}

@@ -10,7 +10,6 @@ const typeDefs = gql`
     Title: String
     Year: String
     imdbID: String
-    Type: String
     Poster: String
   }
 
@@ -18,7 +17,6 @@ const typeDefs = gql`
     Title: String
     Year: String
     imdbID: String
-    Type: String
     Poster: String
     watch: Int
     rate: Int
@@ -26,7 +24,8 @@ const typeDefs = gql`
   
   type Query {
     currentUser: User
-    getWatchList: Boolean
+    getWatchList: [Watch]
+    logOut: Boolean
   }
 
   type Mutation {
@@ -34,10 +33,9 @@ const typeDefs = gql`
     login(name:String!, pass:String!): User
     createUser(name:String!, pass:String!): User
     addMovie(imdbid:String!, title:String!, year:String!, poster:String!):Boolean
-    addWatchList(userid:Int!,imdbid:String!):Boolean
-    deleteFromWatchList(userid:Int!,imdbid:String!):Boolean
-    updateWatchedValue(watched:Int!,userid:Int!,imdbid:String!):Boolean
-    updateRateValue(rate:Int!,userid:Int!,imdbid:String!):Boolean
+    deleteFromWatchList(imdbid:String!):Boolean
+    updateWatchedValue(watched:Int!, imdbid:String!):Boolean
+    updateRateValue(rate:Int!, imdbid:String!):Boolean
   }
 `;
 

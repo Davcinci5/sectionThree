@@ -1,8 +1,9 @@
 // // NODE MODULES
 
-const typeDefs = require('../src/scheme/typeDefs');
-const resolvers = require('../src/scheme/resolvers');
-const { resolveToken } = require('../src/token/token');
+const typeDefs = require('./scheme/typeDefs');
+const resolvers = require('./scheme/resolvers');
+const { resolveToken } = require('./token/token');
+const { errorType } = require('./errors/error');
 const cookieParser = require('cookie-parser');
 const cors = require('cors');
 const express = require('express');
@@ -17,7 +18,6 @@ app.use(cors({
     credentials: true,
     origin: 'http://localhost:8080'
 }));
-
 const server = new ApolloServer({
     typeDefs,
     resolvers,
@@ -25,6 +25,10 @@ const server = new ApolloServer({
         const token = req.cookies.token;
         const user = await resolveToken(token);
         return { req, res, user };
+    },
+    formatError: (err) => {
+        const e = errorType[err.message];
+        return e;
     }
 });
 

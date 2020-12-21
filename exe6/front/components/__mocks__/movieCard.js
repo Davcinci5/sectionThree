@@ -1,4 +1,5 @@
-import { doRequest, createAddMovieQuery, createDeleteFromWatchListQuery } from '../tools/queries.js';
+const { doRequest, createAddMovieQuery, createDeleteFromWatchListQuery } = require('../tools/queries.js');
+
 class MovieCard extends HTMLElement {
     constructor () {
         super();

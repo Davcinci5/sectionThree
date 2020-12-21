@@ -1,6 +1,6 @@
 CREATE TABLE movie (
     imdbid varchar2(10) NOT NULL,
-    title varchar2(50) NOT NULL,
+    title varchar2(250) NOT NULL,
     year varchar2(4) NOT NULL,
     poster varchar2(200) NOT NULL,
     CONSTRAINT pk_movie PRIMARY KEY (imdbid)

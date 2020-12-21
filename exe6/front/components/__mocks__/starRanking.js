@@ -1,5 +1,5 @@
 /* eslint-disable no-tabs */
-import { doRequest, createUpdateRateValue, createUpdateWatchedValue } from '../tools/queries.js';
+const { doRequest, createUpdateRateValue, createUpdateWatchedValue } = require('../tools/queries.js');
 
 class StarRanking extends HTMLElement {
     constructor () {

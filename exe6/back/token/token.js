@@ -24,8 +24,8 @@ const createToken = (user) => {
     return token;
 };
 
-const clearCookie = context => {
-    context.res.clearCookie('access_token', { httpOnly: true });
+const clearCookie = ({ res }) => {
+    res.clearCookie('token', { httpOnly: true });
 };
 
 const setToken = (context, token) => {

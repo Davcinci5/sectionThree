@@ -1,0 +1,34 @@
+.user-card {
+    font-family: 'Arial', sans-serif;
+    background: #2b2c29;
+    text-align: center;
+    width: 300px;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1.5fr;
+    margin-bottom: 15px;
+    border-bottom: #F4BC1C 5px solid;
+}
+.user-card h2,h3 {
+color: #F4BC1C;
+}
+
+.user-card p {
+    color: #F9F9F3;
+}
+
+.user-card img {
+    width: 100%;
+    height:400px;
+
+}
+
+.user-card button {
+    cursor: pointer;
+    background: #F4BC1C;
+    color: #001399;
+    border: 0;
+    border-radius: 5px;
+    padding: 5px 10px;
+    margin-bottom: 15px;
+}
