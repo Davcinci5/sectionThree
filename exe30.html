@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            margin: 0;
+        }
+        .fancy-button {
+            background: linear-gradient(#f4f4f4, #9c9c9b);
+            border: 2px solid black;
+            border-radius: 20px;
+            box-shadow: inset -10px -10px #c4c4c4, inset 10px 10px#c4c4c4, inset 10px -10px#c4c4c4, inset -10px 10px#c4c4c4;
+            color:#545454; 
+            display: inline-block;
+            font-size: 25px;
+            font-weight: 900;
+            margin-left: 100px;
+            margin-top: 100px;
+            padding: 20px 18px;
+            text-decoration: none;
+            text-transform: uppercase;
+        }
+        .fancy-button:before{
+            color: #848484;
+            content: "★";
+            padding-right: 10px;
+        }
+        .fancy-button:after{
+            color: #848484;
+            content: "★";
+            padding-left: 10px;
+        }
+    </style>
+</head>
+<body>
+    <a class='fancy-button' href='/checkout'>checkout</a>
+</body>
+</html>
