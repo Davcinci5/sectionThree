@@ -9,33 +9,118 @@
             margin: 0;
         }
         .fancy-button {
-            background: linear-gradient(#f4f4f4, #9c9c9b);
-            border: 2px solid black;
-            border-radius: 20px;
-            box-shadow: inset -10px -10px #c4c4c4, inset 10px 10px#c4c4c4, inset 10px -10px#c4c4c4, inset -10px 10px#c4c4c4;
+            /* background: linear-gradient(#f4f4f4, #818180); */
+            background: linear-gradient(-2deg, #919090, #dbdbdb  50%);
+            border: 0.5px solid #767676;
+            border-bottom: #767676 1.5px solid;
+            border-radius: 15px;
+            box-shadow:0 0 0 6px #c4c4c4, 0 0 0 8px white, 0 0 0 10px #656565;
             color:#545454; 
+            text-shadow: 0.9px 0 #545454;
             display: inline-block;
-            font-size: 25px;
-            font-weight: 900;
+            font-size: 23px;
+            font-family: sans-serif;
+            font-weight: 800;
             margin-left: 100px;
             margin-top: 100px;
-            padding: 20px 18px;
+            margin-bottom: 100px;;
+            padding: 14px 20px;
+            text-align: center;
             text-decoration: none;
             text-transform: uppercase;
+            position: relative;
         }
         .fancy-button:before{
             color: #848484;
+            font-size: 26px;
             content: "★";
-            padding-right: 10px;
+            padding-right: 15px;
+            position: relative;
+            top: 2px;
         }
         .fancy-button:after{
             color: #848484;
+            font-size: 26px;
             content: "★";
-            padding-left: 10px;
+            padding-left: 15px;
+            position: relative;
+            top: 2px;
         }
+        form{
+            margin: 30px;
+        }
+        .form-field{
+            display: inline-block;
+        }
+        input{
+            border: none;
+            color: #eceaea;
+            border-bottom: black solid 1px;
+            position: absolute;
+            font-size: 20px;
+            top: -21px;
+            width: 238px;
+        }
+        button{
+            display: block;
+            background-color: #ff6348;
+            color: #fffdfc;
+            border: none;
+            font-weight: bold;
+            font-size: 18px;
+            border-radius: 19px;
+            padding: 9px 25px;
+            margin-left: 130px;
+            margin-top: 16.8px;
+
+            /* color:#888888;     */
+            text-shadow: 0.9px 0 #fffdfc;
+            /* font-weight:bold */
+        }
+        label {
+            font-family: sans-serif;;
+            font-size: 23px;
+            text-shadow: 0.5px 0 black;
+        }
+        div {
+            position: relative;
+        }
+        div:before {
+            position:absolute;
+            top: -60px;
+            left: -4px;
+            content: attr(data-hint);       
+            /* basic styles */
+            width:140px;
+            padding: 4.5px 5px;
+            font-size: 11.9px;
+            font-family: sans-serif;
+            background:black;
+            color: #fff;
+            text-shadow: 0.5px 0 #fff;
+            text-align:center;
+            box-shadow: 3px 3px 6px black;
+        }
+        div:after {
+            content: "";
+            position:absolute;         
+            top: -37px;
+            left: 22px;
+            border:7px solid #000;
+            border-color: black transparent transparent transparent;
+            /* box-shadow: 0 0px 10px black; */
+}
+
     </style>
 </head>
 <body>
     <a class='fancy-button' href='/checkout'>checkout</a>
+    <form>
+        <label>intekglobal.com/</label>
+        <div class="form-field" data-hint="Type 5 characters or more">
+           <input name="url" type="text" placeholder="url"/>
+        </div>
+        <button>Setup now!</button>
+      </form>
 </body>
 </html>
