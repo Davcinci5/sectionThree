@@ -1,0 +1,286 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container {
+    width: 75%;
+    margin: 0 auto;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-rows: 305px 100px 100px 280px 140px;
+    grid-template-areas: "menuArea bookImg bookImg bookImg bookImg" "information tutorials news top_tips contactUs" "information LetSignUp LetSignUp LetSignUp LetSignUp" "information code1 code2 code3 code4" "footer footer footer footer footer";
+    gap: 1px;
+    margin-top: 30px;
+    max-height: 900px;
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.container div {
+    background-color: white;
+}
+
+.menu {
+    grid-area: menuArea;
+    padding-top: 0.5rem;
+    position: relative;
+}
+
+.menu ul {
+    color: #79bdbb;
+    list-style-type: none;
+}
+
+.menu p {
+    color: white;
+    font-weight: 900;
+    position: absolute;
+    left: 95px;
+    top: 10%;
+    font-size: 13px;
+    font-family: cursive;
+    word-spacing: 9999999px;
+}
+
+.menu ul li {
+    font-size: 15px;
+    padding-bottom: 17px;
+}
+
+.menu ul li i {
+    font-size: 18px;
+    color: black;
+    margin-right: 5px;
+}
+
+.bookPage {
+    border-radius: 50%;
+}
+
+.bookImg {
+    grid-area: bookImg;
+    position: relative;
+}
+
+.bookImg>.text1 {
+    position: absolute;
+    background-color: white;
+    top: 229px;
+    padding: 5px 20px;
+    font-weight: bold;
+    font-size: 19px;
+}
+
+.bookImg>.text2 {
+    position: absolute;
+    background-color: black;
+    color: white;
+    font-family: cursive;
+    top: 259px;
+    padding: 4px 9px;
+    font-weight: bold;
+}
+
+.information {
+    grid-area: information;
+}
+
+.tutorials {
+    grid-area: tutorials;
+}
+
+.news {
+    grid-area: news;
+}
+
+.top_tips {
+    grid-area: top_tips;
+}
+
+.contactUs {
+    grid-area: contactUs;
+}
+
+.options {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e9f8f5 !important;
+}
+
+.options>.main {
+    color: #369597;
+    font-weight: 900;
+    font-size: 14px;
+    width: 150px;
+}
+
+.options>.sub {
+    font-family: cursive;
+    width: 150px;
+    color: #5bc0bb;
+}
+
+.LetSignUp {
+    grid-area: LetSignUp;
+}
+
+.text {
+    font-family: cursive;
+}
+
+.wrap {
+    max-width: 1176px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    border-top: dotted black 3px;
+    border-bottom: dotted black 3px;
+    margin-top: 28px;
+    padding: 2px;
+}
+
+.wrap i {
+    font-size: 40px;
+}
+
+.wrap>form>input[type="submit"] {
+    padding: 3px 20px;
+    margin-left: -5px;
+    background-color: #F7F7F7;
+    border: 1px solid #DCDCDC;
+    font-size: 10px;
+}
+
+.wrap>form>input[type="text"] {
+    border: 1px solid #DCDCDC;
+    color: gray;
+    padding-top: 2px;
+    padding-bottom: 2px;
+    font-size: 11px;
+}
+
+.form {
+    padding-top: 8px;
+}
+
+.code1 {
+    grid-area: code1;
+}
+
+.code2 {
+    grid-area: code2;
+}
+
+.code3 {
+    grid-area: code3;
+}
+
+.code4 {
+    grid-area: code4;
+}
+
+.imageCode {
+    height: 115px;
+    width: 178px;
+    border: 1px solid gray;
+    box-shadow: 0 0 0 4px white, 0 0 0 5px #c4c4c4;
+    margin-top: 6px;
+    margin-bottom: 17px;
+}
+
+.code {
+    display: flex;
+    flex-direction: column;
+    align-content: space-between;
+    align-items: center;
+}
+
+.code>h1 {
+    color: #5abdf9;
+    font-size: 9px;
+    margin-left: -42px;
+    margin-bottom: 10px;
+}
+
+.code>h1>hr {
+    visibility: hidden;
+}
+
+.code>div {
+    margin-left: -20px;
+    font-size: 10px;
+    width: 175px;
+}
+
+.code>.date {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    font-size: 10px;
+    margin-top: 10px;
+    color: gray;
+}
+
+.code>.date>p {
+    padding-left: 2px;
+    color: #5abdf9;
+}
+
+.footer {
+    grid-area: footer;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    border-top: 2px dotted black;
+    margin-top: 15px;
+}
+
+.inf_footer {
+    color: #27a0eb;
+    font-size: 12px;
+    margin-top: 12px;
+}
+
+.inf_footer span:nth-child(1),
+.inf_footer span:nth-child(2) {
+    border-right: 1px solid gray;
+    padding-right: 3px;
+}
+
+.inteckglobal,
+.message {
+    color: gray;
+    font-size: 12px;
+    padding-top: 5px;
+}
+
+.logos {
+    color: gray;
+    padding-top: 10px;
+    font-size: 25px;
+}
+
+.logos a {
+    background-color: #999999;
+    text-align: center;
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 20px !important;
+    border: 1px solid #909090;
+    border-radius: 100%;
+    position: relative;
+    left: -6px;
+}
+
+.logos a i {
+    font-size: 19px;
+    position: absolute;
+    left: 4px;
+    top: 5px;
+    color: white;
+}
